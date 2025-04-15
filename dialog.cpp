@@ -36,7 +36,7 @@ void Dialog::save()
     {
         QMessageBox::information(this, "Message", "Image saved successfully");
     }else{
-        QMessageBox::critical(this, "Message", "Image cound not be saved!");
+        QMessageBox::critical(this, "Message", "Image could not be saved!");
     }
     init();
     imageFile.close();
@@ -68,6 +68,3 @@ void Dialog::on_buttonBox_rejected()
 {
     reject();
 }
-
-
-
