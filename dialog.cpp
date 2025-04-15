@@ -38,7 +38,7 @@ void Dialog::save()
     }else{
         QMessageBox::critical(this, "Message", "Image could not be saved!");
     }
-    init();
+
     imageFile.close();
 }
 
