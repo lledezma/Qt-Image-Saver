@@ -1,1 +1,1 @@
-# Qt-Image-Saver
+# Qt Widgets App
